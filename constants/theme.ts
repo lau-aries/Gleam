@@ -5,25 +5,29 @@
 
 import { Platform } from 'react-native';
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+const tintColorLight = '#8A9A83'; // Sage Green
+const tintColorDark = '#D8B888'; // Gold Spark
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
+    text: '#2D3A28', // Dark Sage for readability
+    background: '#F4F3ED', // Cream / Off-White
     tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
+    icon: '#8A9A83',
+    tabIconDefault: '#C1C8BD',
     tabIconSelected: tintColorLight,
+    primary: '#8A9A83', // Sage Green
+    accent: '#D8B888', // Gold Spark
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
+    text: '#F4F3ED', // Cream
+    background: '#1A2118', // Very Dark Green
     tint: tintColorDark,
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
     tabIconSelected: tintColorDark,
+    primary: '#8A9A83',
+    accent: '#D8B888',
   },
 };
 
